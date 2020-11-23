@@ -18,6 +18,8 @@
 export default {
   name: 'test'
 }
+
+new Vue()
 </script>
 
 <style scoped>

@@ -3,7 +3,6 @@ const path = require("path")
 
 const autoSideBar2 = require('./utils/autoSidebar2');
 
-console.log(path);
 module.exports = {
   title: 'DOUMJUN',
   description: '欢迎访问我的博客',
@@ -34,7 +33,6 @@ module.exports = {
         {
           title: '日常',
           children: autoSideBar2('/guide/daily/')
-         
         }
       ],
       '/guide/': [

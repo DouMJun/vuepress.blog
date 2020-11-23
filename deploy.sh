@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
-
+git add -A
+git commit -m 'deploy'
+git push -f git@github.com:doumjun/vuepress.blog.git master
 # 确保脚本抛出遇到的错误
 set -e
 
