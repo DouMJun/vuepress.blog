@@ -1,5 +1,5 @@
 const fs = require('fs')//
-
+const path = require('path')
 const PUBLIC_PATH = 'D:/webPractice/vuepressblog/docs'
 
 
