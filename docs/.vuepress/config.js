@@ -44,7 +44,6 @@ module.exports = {
       }
       ]
     },
-    lastUpdated: 'Last Updated', 
-    smoothScroll: true
+    lastUpdated: 'Last Updated'
   }
 }
