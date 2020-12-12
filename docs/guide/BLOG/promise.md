@@ -77,7 +77,6 @@ class myPromise {
             } catch(err) {
               reject(x)
             }
-
           })
         })
         this.fulfilledList.push(() =>{
