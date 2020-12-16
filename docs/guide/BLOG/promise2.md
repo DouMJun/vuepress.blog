@@ -7,9 +7,9 @@ Promise.all = function(promises) {
 	var len = promises.length
 	var results = []
 	return new Promise((resolve,reject) => {
-		promises.forEach((promise) => {
+		promises.forEach((promise, index) => {
 			Promise.resolve(promise).then(function(res){
-				results.push(res)
+				results[index] = res
 				if(results.length === len){
 					return resolve(results)
 				}
