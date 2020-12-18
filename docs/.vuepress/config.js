@@ -35,6 +35,12 @@ module.exports = {
           children: autoSideBar2('/guide/daily/')
         }
       ],
+      '/guide/Algorithm/': [
+        {
+          title: '算法',
+          children: autoSideBar2('/guide/Algorithm/')
+        }
+      ],
       '/guide/': [
         {
           title: '首页',
