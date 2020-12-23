@@ -12,6 +12,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/guide/about', target:'' },
       { text: '博客', link: '/guide/BLOG/' ,target:''},
+      { text: '算法', link: '/guide/Algorithm/' ,target:''},
       { text: '日常', link: '/guide/daily/', target:'' },
       {
         text: '更多',

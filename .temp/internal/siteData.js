@@ -8,64 +8,63 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "如何用CSS做一个时钟",
-      "frontmatter": {},
-      "regularPath": "/guide/BLOG/watch.html",
-      "relativePath": "guide/BLOG/watch.md",
-      "key": "v-560867b8",
-      "path": "/guide/BLOG/watch.html"
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "DOUMJUN",
+        "actionText": "WELCOME →",
+        "actionLink": "/guide/about",
+        "features": [
+          {
+            "title": "博客",
+            "details": "记录学习中的困惑和问题，把想法写下来"
+          },
+          {
+            "title": "日常",
+            "details": "记录生活的点点滴滴"
+          }
+        ]
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-157c0639",
+      "path": "/",
+      "lastUpdated": "11/23/2020, 10:42:28 PM"
     },
     {
-      "title": "我的博客",
+      "title": "找不同",
       "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-8ea96768",
-      "path": "/guide/",
+      "regularPath": "/guide/Algorithm/389.diff.html",
+      "relativePath": "guide/Algorithm/389.diff.md",
+      "key": "v-1bec3830",
+      "path": "/guide/Algorithm/389.diff.html",
       "headers": [
         {
-          "level": 3,
-          "title": "记录",
-          "slug": "记录"
+          "level": 2,
+          "title": "题目",
+          "slug": "题目"
+        },
+        {
+          "level": 2,
+          "title": "解法",
+          "slug": "解法"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
         }
       ],
-      "lastUpdated": "11/5/2020, 10:39:34 PM"
+      "lastUpdated": "12/18/2020, 9:41:47 PM"
     },
     {
-      "title": "关于我",
+      "title": "数据结构与算法",
       "frontmatter": {},
-      "regularPath": "/guide/about.html",
-      "relativePath": "guide/about.md",
-      "key": "v-7b0b7696",
-      "path": "/guide/about.html",
-      "lastUpdated": "11/23/2020, 10:42:28 PM"
-    },
-    {
-      "title": "联系我",
-      "frontmatter": {},
-      "regularPath": "/guide/contact.html",
-      "relativePath": "guide/contact.md",
-      "key": "v-6e049356",
-      "path": "/guide/contact.html",
-      "lastUpdated": "11/23/2020, 10:42:28 PM"
-    },
-    {
-      "title": "生活日常",
-      "frontmatter": {},
-      "regularPath": "/guide/daily/",
-      "relativePath": "guide/daily/README.md",
-      "key": "v-39839636",
-      "path": "/guide/daily/",
-      "lastUpdated": "11/23/2020, 10:42:28 PM"
-    },
-    {
-      "title": "Today",
-      "frontmatter": {},
-      "regularPath": "/guide/daily/Today.html",
-      "relativePath": "guide/daily/Today.md",
-      "key": "v-67092228",
-      "path": "/guide/daily/Today.html",
-      "lastUpdated": "11/5/2020, 10:39:34 PM"
+      "regularPath": "/guide/Algorithm/",
+      "relativePath": "guide/Algorithm/README.md",
+      "key": "v-52ef5579",
+      "path": "/guide/Algorithm/",
+      "lastUpdated": "12/18/2020, 9:41:47 PM"
     },
     {
       "frontmatter": {},
@@ -161,49 +160,46 @@ export const siteData = {
       "lastUpdated": "11/5/2020, 10:39:34 PM"
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "DOUMJUN",
-        "actionText": "WELCOME →",
-        "actionLink": "/guide/about",
-        "features": [
-          {
-            "title": "博客",
-            "details": "记录学习中的困惑和问题，把想法写下来"
-          },
-          {
-            "title": "日常",
-            "details": "记录生活的点点滴滴"
-          }
-        ]
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-157c0639",
-      "path": "/",
+      "title": "学习记录",
+      "frontmatter": {},
+      "regularPath": "/guide/BLOG/",
+      "relativePath": "guide/BLOG/README.md",
+      "key": "v-1102a229",
+      "path": "/guide/BLOG/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "学习记录",
+          "slug": "学习记录"
+        }
+      ],
       "lastUpdated": "11/23/2020, 10:42:28 PM"
     },
     {
-      "title": "AutoSideBar3",
+      "title": "JS单例模式",
       "frontmatter": {},
-      "regularPath": "/guide/BLOG/autosidebar3.html",
-      "relativePath": "guide/BLOG/autosidebar3.md",
-      "key": "v-8e6245bc",
-      "path": "/guide/BLOG/autosidebar3.html",
+      "regularPath": "/guide/BLOG/Single.html",
+      "relativePath": "guide/BLOG/Single.md",
+      "key": "v-6c138c3c",
+      "path": "/guide/BLOG/Single.html",
       "headers": [
         {
           "level": 2,
-          "title": "改进",
-          "slug": "改进"
+          "title": "什么是单例",
+          "slug": "什么是单例"
         },
         {
           "level": 2,
           "title": "实现",
           "slug": "实现"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
         }
       ],
-      "lastUpdated": "11/23/2020, 10:42:28 PM"
+      "lastUpdated": "12/16/2020, 10:45:12 PM"
     },
     {
       "title": "尾调用优化",
@@ -252,20 +248,51 @@ export const siteData = {
       "lastUpdated": "11/23/2020, 10:42:28 PM"
     },
     {
-      "title": "学习记录",
+      "title": "AutoSideBar3",
       "frontmatter": {},
-      "regularPath": "/guide/BLOG/",
-      "relativePath": "guide/BLOG/README.md",
-      "key": "v-1102a229",
-      "path": "/guide/BLOG/",
+      "regularPath": "/guide/BLOG/autosidebar3.html",
+      "relativePath": "guide/BLOG/autosidebar3.md",
+      "key": "v-8e6245bc",
+      "path": "/guide/BLOG/autosidebar3.html",
       "headers": [
         {
-          "level": 3,
-          "title": "学习记录",
-          "slug": "学习记录"
+          "level": 2,
+          "title": "改进",
+          "slug": "改进"
+        },
+        {
+          "level": 2,
+          "title": "实现",
+          "slug": "实现"
         }
       ],
       "lastUpdated": "11/23/2020, 10:42:28 PM"
+    },
+    {
+      "title": "自动侧边栏插件",
+      "frontmatter": {},
+      "regularPath": "/guide/BLOG/autosidebar4.html",
+      "relativePath": "guide/BLOG/autosidebar4.md",
+      "key": "v-385b71c2",
+      "path": "/guide/BLOG/autosidebar4.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "如何使用：",
+          "slug": "如何使用"
+        },
+        {
+          "level": 2,
+          "title": "上传npm插件",
+          "slug": "上传npm插件"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ],
+      "lastUpdated": "11/26/2020, 10:39:49 PM"
     },
     {
       "title": "深浅拷贝",
@@ -290,7 +317,8 @@ export const siteData = {
           "title": "总结",
           "slug": "总结"
         }
-      ]
+      ],
+      "lastUpdated": "12/11/2020, 9:48:03 PM"
     },
     {
       "title": "关于闭包",
@@ -324,69 +352,6 @@ export const siteData = {
       "lastUpdated": "11/23/2020, 10:42:28 PM"
     },
     {
-      "title": "关于防抖与节流",
-      "frontmatter": {},
-      "regularPath": "/guide/BLOG/debounce.html",
-      "relativePath": "guide/BLOG/debounce.md",
-      "key": "v-4b9d6082",
-      "path": "/guide/BLOG/debounce.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "简单实现",
-          "slug": "简单实现"
-        }
-      ],
-      "lastUpdated": "11/23/2020, 10:42:28 PM"
-    },
-    {
-      "title": "自动侧边栏插件",
-      "frontmatter": {},
-      "regularPath": "/guide/BLOG/autosidebar4.html",
-      "relativePath": "guide/BLOG/autosidebar4.md",
-      "key": "v-385b71c2",
-      "path": "/guide/BLOG/autosidebar4.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "如何使用：",
-          "slug": "如何使用"
-        },
-        {
-          "level": 2,
-          "title": "上传npm插件",
-          "slug": "上传npm插件"
-        },
-        {
-          "level": 2,
-          "title": "总结",
-          "slug": "总结"
-        }
-      ],
-      "lastUpdated": "11/26/2020, 10:39:49 PM"
-    },
-    {
-      "title": "用Nginx在同一端口挂多个页面",
-      "frontmatter": {},
-      "regularPath": "/guide/BLOG/nginxconf2.html",
-      "relativePath": "guide/BLOG/nginxconf2.md",
-      "key": "v-4f88b13c",
-      "path": "/guide/BLOG/nginxconf2.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "配置",
-          "slug": "配置"
-        },
-        {
-          "level": 2,
-          "title": "总结",
-          "slug": "总结"
-        }
-      ],
-      "lastUpdated": "11/26/2020, 10:39:49 PM"
-    },
-    {
       "title": "关于最近面试的总结",
       "frontmatter": {},
       "regularPath": "/guide/BLOG/mianshizongjie.html",
@@ -413,25 +378,67 @@ export const siteData = {
       "lastUpdated": "11/23/2020, 10:42:28 PM"
     },
     {
-      "title": "从零开始的博客开发(2)",
+      "title": "关于防抖与节流",
       "frontmatter": {},
-      "regularPath": "/guide/BLOG/vueBlog2.html",
-      "relativePath": "guide/BLOG/vueBlog2.md",
-      "key": "v-4d2e51a2",
-      "path": "/guide/BLOG/vueBlog2.html",
+      "regularPath": "/guide/BLOG/debounce.html",
+      "relativePath": "guide/BLOG/debounce.md",
+      "key": "v-4b9d6082",
+      "path": "/guide/BLOG/debounce.html",
       "headers": [
         {
           "level": 2,
-          "title": "功能与问题",
-          "slug": "功能与问题"
+          "title": "简单实现",
+          "slug": "简单实现"
+        }
+      ],
+      "lastUpdated": "11/23/2020, 10:42:28 PM"
+    },
+    {
+      "title": "用Nginx在同一端口挂多个页面",
+      "frontmatter": {},
+      "regularPath": "/guide/BLOG/nginxconf2.html",
+      "relativePath": "guide/BLOG/nginxconf2.md",
+      "key": "v-4f88b13c",
+      "path": "/guide/BLOG/nginxconf2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "配置",
+          "slug": "配置"
         },
         {
           "level": 2,
-          "title": "解决",
-          "slug": "解决"
+          "title": "总结",
+          "slug": "总结"
         }
       ],
-      "lastUpdated": "11/25/2020, 10:38:53 PM"
+      "lastUpdated": "11/26/2020, 10:39:49 PM"
+    },
+    {
+      "title": "写一个Promise(二)",
+      "frontmatter": {},
+      "regularPath": "/guide/BLOG/promise2.html",
+      "relativePath": "guide/BLOG/promise2.md",
+      "key": "v-4364dc42",
+      "path": "/guide/BLOG/promise2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Promise.all",
+          "slug": "promise-all"
+        },
+        {
+          "level": 2,
+          "title": "Promise.race",
+          "slug": "promise-race"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ],
+      "lastUpdated": "12/16/2020, 10:45:12 PM"
     },
     {
       "title": "写一个Promise(一)",
@@ -457,7 +464,79 @@ export const siteData = {
           "slug": "总结"
         }
       ],
-      "lastUpdated": "11/23/2020, 10:42:28 PM"
+      "lastUpdated": "12/12/2020, 11:36:37 AM"
+    },
+    {
+      "title": "从零开始的博客开发(2)",
+      "frontmatter": {},
+      "regularPath": "/guide/BLOG/vueBlog2.html",
+      "relativePath": "guide/BLOG/vueBlog2.md",
+      "key": "v-4d2e51a2",
+      "path": "/guide/BLOG/vueBlog2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "功能与问题",
+          "slug": "功能与问题"
+        },
+        {
+          "level": 2,
+          "title": "解决",
+          "slug": "解决"
+        }
+      ],
+      "lastUpdated": "11/25/2020, 10:38:53 PM"
+    },
+    {
+      "title": "从零开始的博客开发(3.1)",
+      "frontmatter": {},
+      "regularPath": "/guide/BLOG/vueBlog4.html",
+      "relativePath": "guide/BLOG/vueBlog4.md",
+      "key": "v-b990683c",
+      "path": "/guide/BLOG/vueBlog4.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "功能",
+          "slug": "功能"
+        },
+        {
+          "level": 2,
+          "title": "代码",
+          "slug": "代码"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ],
+      "lastUpdated": "11/25/2020, 10:38:53 PM"
+    },
+    {
+      "title": "关于Vue.nextTick",
+      "frontmatter": {},
+      "regularPath": "/guide/BLOG/vuenexttick.html",
+      "relativePath": "guide/BLOG/vuenexttick.md",
+      "key": "v-1c78bc54",
+      "path": "/guide/BLOG/vuenexttick.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "用法",
+          "slug": "用法"
+        },
+        {
+          "level": 2,
+          "title": "异步更新队列",
+          "slug": "异步更新队列"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ]
     },
     {
       "title": "从零开始的博客开发(3)",
@@ -496,22 +575,78 @@ export const siteData = {
       "lastUpdated": "11/25/2020, 10:38:53 PM"
     },
     {
-      "title": "从零开始的博客开发(3.1)",
+      "title": "如何用CSS做一个时钟",
       "frontmatter": {},
-      "regularPath": "/guide/BLOG/vueBlog4.html",
-      "relativePath": "guide/BLOG/vueBlog4.md",
-      "key": "v-b990683c",
-      "path": "/guide/BLOG/vueBlog4.html",
+      "regularPath": "/guide/BLOG/watch.html",
+      "relativePath": "guide/BLOG/watch.md",
+      "key": "v-560867b8",
+      "path": "/guide/BLOG/watch.html",
+      "lastUpdated": "12/11/2020, 9:48:03 PM"
+    },
+    {
+      "title": "关于我",
+      "frontmatter": {},
+      "regularPath": "/guide/about.html",
+      "relativePath": "guide/about.md",
+      "key": "v-7b0b7696",
+      "path": "/guide/about.html",
+      "lastUpdated": "11/23/2020, 10:42:28 PM"
+    },
+    {
+      "title": "我的博客",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-8ea96768",
+      "path": "/guide/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "记录",
+          "slug": "记录"
+        }
+      ],
+      "lastUpdated": "11/5/2020, 10:39:34 PM"
+    },
+    {
+      "title": "联系我",
+      "frontmatter": {},
+      "regularPath": "/guide/contact.html",
+      "relativePath": "guide/contact.md",
+      "key": "v-6e049356",
+      "path": "/guide/contact.html",
+      "lastUpdated": "11/23/2020, 10:42:28 PM"
+    },
+    {
+      "title": "生活日常",
+      "frontmatter": {},
+      "regularPath": "/guide/daily/",
+      "relativePath": "guide/daily/README.md",
+      "key": "v-39839636",
+      "path": "/guide/daily/",
+      "lastUpdated": "11/23/2020, 10:42:28 PM"
+    },
+    {
+      "title": "Today",
+      "frontmatter": {},
+      "regularPath": "/guide/daily/Today.html",
+      "relativePath": "guide/daily/Today.md",
+      "key": "v-67092228",
+      "path": "/guide/daily/Today.html",
+      "lastUpdated": "11/5/2020, 10:39:34 PM"
+    },
+    {
+      "title": "关于setImmediate()的执行",
+      "frontmatter": {},
+      "regularPath": "/guide/BLOG/Watcher.html",
+      "relativePath": "guide/BLOG/Watcher.md",
+      "key": "v-1badbc6c",
+      "path": "/guide/BLOG/Watcher.html",
       "headers": [
         {
           "level": 2,
-          "title": "功能",
-          "slug": "功能"
-        },
-        {
-          "level": 2,
-          "title": "代码",
-          "slug": "代码"
+          "title": "关于setImmediate()",
+          "slug": "关于setimmediate"
         },
         {
           "level": 2,
@@ -519,7 +654,7 @@ export const siteData = {
           "slug": "总结"
         }
       ],
-      "lastUpdated": "11/25/2020, 10:38:53 PM"
+      "lastUpdated": "12/17/2020, 11:00:01 PM"
     }
   ],
   "themeConfig": {
@@ -533,6 +668,11 @@ export const siteData = {
       {
         "text": "博客",
         "link": "/guide/BLOG/",
+        "target": ""
+      },
+      {
+        "text": "算法",
+        "link": "/guide/Algorithm/",
         "target": ""
       },
       {
@@ -561,6 +701,10 @@ export const siteData = {
         {
           "title": "博客",
           "children": [
+            "vuenexttick",
+            "Watcher",
+            "Single",
+            "promise2",
             "watch",
             "copy",
             "autosidebar4",
@@ -585,6 +729,14 @@ export const siteData = {
           "title": "日常",
           "children": [
             "Today"
+          ]
+        }
+      ],
+      "/guide/Algorithm/": [
+        {
+          "title": "算法",
+          "children": [
+            "389.diff"
           ]
         }
       ],
