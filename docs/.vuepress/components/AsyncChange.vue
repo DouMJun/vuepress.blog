@@ -16,7 +16,8 @@
         for(let i = 0; i < 100; i++){
           this.number++
         }
-        console.log(this.number);
+        console.log(this.number)
+        this.$nextTick()
       }
     }
   }
