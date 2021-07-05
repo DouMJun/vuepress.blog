@@ -80,8 +80,5 @@
   articalLists.sort((a, b) => {
     return b.timeCom - a.timeCom
   })
-
-
-
   export {children, articalLists} 
   ```

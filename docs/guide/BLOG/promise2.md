@@ -4,13 +4,15 @@
 ## Promise.all
 ```js
 Promise.all = function(promises) {
-	var len = promises.length
+	var proLen = promises.length
+	var len = 0
 	var results = []
 	return new Promise((resolve,reject) => {
 		promises.forEach((promise, index) => {
 			Promise.resolve(promise).then(function(res){
 				results[index] = res
-				if(results.length === len){
+				len++
+				if(len === proLen){
 					return resolve(results)
 				}
 			},function(reason){

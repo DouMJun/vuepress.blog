@@ -1,7 +1,7 @@
-const fs = require('fs');
+const fs = require('fs')
 const path = require("path")
 
-const autoSideBar2 = require('vuepress-auto-sidebar-doumjun');
+const autoSideBar2 = require('vuepress-auto-sidebar-doumjun')
 
 module.exports = {
   title: 'DOUMJUN',
