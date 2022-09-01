@@ -32,7 +32,7 @@ module.exports = {
       ],
       '/guide/daily/': [
         {
-          title: '日常',
+          title: '碎碎念',
           children: autoSideBar2('/guide/daily/')
         }
       ],
