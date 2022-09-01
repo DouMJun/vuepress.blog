@@ -6,7 +6,7 @@ const autoSideBar2 = require('vuepress-auto-sidebar-doumjun')
 module.exports = {
   title: 'DOUMJUN',
   description: '欢迎访问我的博客',
-  base: '/vuepress.blog/',
+  base: '/',
   themeConfig: {
     logo: '/logo.png',
     nav: [
