@@ -2,7 +2,7 @@
 home: true
 heroText: DOUMJUN
 actionText: WELCOME →
-actionLink: /guide/about
+actionLink: /guide/blog
 features:
 - title: 博客
   details: 记录学习中的困惑和问题，把想法写下来
